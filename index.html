@@ -18,7 +18,7 @@
   </head>
   <body>    
     <!-- Hero section -->
-    <section id="hero" class="text-white tm-font-big tm-parallax">
+    <section id="hero" class="text-white tm-font-big tm-parallax" style="background-position: center 0;">
       <!-- Navigation -->
       <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
         <div class="container">   
@@ -259,13 +259,13 @@
       
       $(function(){
         // Hero Section - Background Parallax
-        background_image_parallax($(".tm-parallax"), 0.30, false);
-        background_image_parallax_2($("#contact"), 0.80);   
+        // background_image_parallax($(".tm-parallax"), 0.30, false);
+        // background_image_parallax_2($("#contact"), 0.80);   
         
         // Handle window resize
-        window.addEventListener('resize', function(){
-          background_image_parallax($(".tm-parallax"), 0.30, true);
-        }, true);
+        // window.addEventListener('resize', function(){
+        //   background_image_parallax($(".tm-parallax"), 0.30, true);
+        // }, true);
 
         // Detect window scroll and update navbar
         $(window).scroll(function(e){          
