@@ -78,7 +78,7 @@ a:focus {
 }
 
 .navbar-brand {
-  color: white;
+  color: black;
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -141,7 +141,7 @@ a:focus {
 
 @media (min-height: 830px) {
   #hero {
-    background-position: center -210px;
+    background-position: center 0px;
   }
 }
 
@@ -282,7 +282,6 @@ a:focus {
 	max-width: 480px;
 	max-height: 360px;
 	width: 48%; */
-  background: #3085a3;
   text-align: center;
   cursor: pointer;
 }
@@ -352,7 +351,6 @@ a:focus {
 /*---------------*/
 
 figure.effect-honey {
-  background: #4a3753;
   max-width: 220px;
 }
 
